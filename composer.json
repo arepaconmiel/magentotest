@@ -1,0 +1,27 @@
+{
+    "name": "Qxd/Test",
+    "description": "Qxd test Module for Magento 2",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": "proprietary",
+    "require": {
+        "php": "^5.5.22|^7.0",
+        "magento/framework": "^100.1.0|^101.0.0|^102.0.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:qxd/iva-ecommerce.git"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Qxd\\Test\\": ""
+        }
+    }
+}
