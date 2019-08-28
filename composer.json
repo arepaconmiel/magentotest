@@ -10,10 +10,6 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        {
             "type": "vcs",
             "url": "git@bitbucket.org:qxd/iva-ecommerce.git"
         }
